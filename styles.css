@@ -1,0 +1,48 @@
+body {
+	background-color: #889edb;
+}    
+	
+.title {
+	color: #D6BA73;
+  text-align: center; 
+}
+
+.display {
+  color: #F5E0B7;
+  font-size: 20px;
+
+  border: #59344F;
+  border-width: 2px; 
+  border-style: solid;
+  padding: 3px; 
+  display: inline-block; 
+
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 20px;
+
+  border: #59344F;
+  border-width: 2px; 
+  border-style: solid;
+  padding: 3px; 
+  display: inline-block; 
+
+  text-align: center;
+}
+
+#output {
+  text-align: center; 
+}
+
+.info {
+  color: #F5E0B7;
+  display: inline-block; 
+}
+
+.directions {
+  color: #F5E0B7; 
+  text-align: center; 
+}
