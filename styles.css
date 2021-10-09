@@ -1,17 +1,27 @@
 body {
-	background-color: #889edb;
+	background-color: #4ABDAC;
 }    
 	
 .title {
-	color: #D6BA73;
+	color: #FC4A1A;
+  text-align: center; 
+}
+
+.info {
+  color: white;
+  display: inline-block; 
+}
+
+.directions {
+  color: white;
   text-align: center; 
 }
 
 .display {
-  color: #F5E0B7;
+  color: white;
   font-size: 20px;
 
-  border: #59344F;
+  border: #F7B733;
   border-width: 2px; 
   border-style: solid;
   padding: 3px; 
@@ -24,7 +34,7 @@ body {
   color: red;
   font-size: 20px;
 
-  border: #59344F;
+  border: #F7B733;
   border-width: 2px; 
   border-style: solid;
   padding: 3px; 
@@ -34,15 +44,5 @@ body {
 }
 
 #output {
-  text-align: center; 
-}
-
-.info {
-  color: #F5E0B7;
-  display: inline-block; 
-}
-
-.directions {
-  color: #F5E0B7; 
   text-align: center; 
 }
