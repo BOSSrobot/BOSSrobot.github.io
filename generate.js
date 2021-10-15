@@ -27,12 +27,17 @@ function special(char) {
 
 }
 
+function digitsBeGone(str){
+  return str.match(/\D/g).join('')
+}
+
 function run(form) {
 
   var outdiv = document.getElementById("output");
   outdiv.innerHTML = "";
-
-  var site = form.sitename.value.toLowerCase();
+  alert(form.sitename.value);
+  var site = digitsBeGone(form.sitename.value.toLowerCase());
+  alert(site);
   var name = form.username.value.toLowerCase(); 
   var password = "";
 
