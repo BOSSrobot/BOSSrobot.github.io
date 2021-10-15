@@ -35,9 +35,7 @@ function run(form) {
 
   var outdiv = document.getElementById("output");
   outdiv.innerHTML = "";
-  alert(form.sitename.value);
   var site = digitsBeGone(form.sitename.value.toLowerCase());
-  alert(site);
   var name = form.username.value.toLowerCase(); 
   var password = "";
 
